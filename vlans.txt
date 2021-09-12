@@ -1,1 +1,0 @@
-vlan 1  tagged trk105,19,trk100  untagged 1,7,11,12,trk111vlan 2  tagged trk105,19,trk100  untagged 1,7,11,12,trk111vlan 3  tagged trk105,19,trk100  untagged 1,7,11,12,trk111vlan 4  tagged trk105,19,trk100  untagged 1,7,11,12,trk111
