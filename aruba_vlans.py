@@ -68,7 +68,7 @@ def output(text, handler, printf=PRINT_TO_CLI):
     """
     Helper method which
     """
-    handler.write(text)
+    handler.write(text + "\n")
     if printf:
         print(text)
 
