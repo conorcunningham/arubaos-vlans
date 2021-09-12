@@ -28,7 +28,7 @@ def main():
     """
     Open the define file for writing
     And process the vlans from the switch
-    returns: None
+    :return: None
     """
 
     with open(OUTPUT_FILE, "w") as file:
@@ -41,8 +41,8 @@ def process_vlans(handler):
     which is required to assign the various ports
     to the desired vlans
 
-    handler: The writing file handler
-    returns: None
+    :param handler: The writing file handler
+    :return: None
     """
 
     for vlan in VLANS.split("\n"):
