@@ -2,10 +2,10 @@
 
 # paste your VLAN output in betweek the """
 VLANS = """
-1       DEFAULT_VLAN                     | Port-based No    No   
-2       OCEAN                            | Port-based No    No   
-3       BIRDS                            | Port-based No    No   
-4       FLOWERS                          | Port-based No    No    
+1       DEFAULT_VLAN                     | Port-based No    No
+2       OCEAN                            | Port-based No    No
+3       BIRDS                            | Port-based No    No
+4       FLOWERS                          | Port-based No    No
 """
 
 # put your tagged vlans here - string or int
