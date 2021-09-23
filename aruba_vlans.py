@@ -75,3 +75,11 @@ def output(text, handler, printf=PRINT_TO_CLI):
 
 if __name__ == "__main__":
     main()
+
+
+def add_vlan_config(handler):
+    # useful from time to time
+    for vlan in VLANS.split("\n"):
+        if len(vlan) == 0 or vlan == "":
+            continue
+        output(f"vlan {vlan.split()[0]} jumbo", handler)
